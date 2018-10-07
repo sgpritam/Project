@@ -1,0 +1,53 @@
+git init - Intiliase the directory into git repository
+git config user.name "<username>"
+git config user.email "<email>"
+
+
+git status - gives us the status of the repository
+    on what branch you are on
+    which files are being tracked
+    which files are untracked
+    which files are new
+    which files are modified
+
+Staging area : Changes to be committed
+
+git add <fileName> -> adds new files/changes to staging area
+git commit -m "Apt message for the commit"  - saves new files/changes in the staging area
+
+git log -> history of commits 
+
+
+Github/Bitbucket/Gitlab
+
+git remote add <alias for the repository> <url of the repository>
+git push <alias for the remote repository's loction> <branch of the repository>
+
+git checkout <commitId>
+git branch
+git checkout <CreatedBranch> -> switch
+
+git clone <urloftherepo>  -> origin - urloftherepo
+
+git pull origin master
+git push origin master
+
+
+
+
+Fork the repository
+clone the forked repository(Your own copy)
+
+add upstream -> git remote add upstream <url of original repository>
+pull from upstream
+make changes,add, commit
+push to origin -> git push origin <branchName>
+
+Before creating a PR
+
+pull from upstream -> git pull upstream <branchName>
+push to origin -> git push origin <branchName>
+Create the PR with a proper text message
+
+origin -> copy of the original repository
+upstream -> original repository
